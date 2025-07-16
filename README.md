@@ -23,22 +23,24 @@ This project demonstrates core SQL skills commonly used by data analysts to expl
 - **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
 ```sql
-CREATE DATABASE p1_retail_db;
+CREATE DATABASE sql_project_p1;
 
+-- CREATE TABLE 
+DROP TABLE IF EXISTS retail_sales;
 CREATE TABLE retail_sales
-(
-    transactions_id INT PRIMARY KEY,
-    sale_date DATE,	
-    sale_time TIME,
-    customer_id INT,	
-    gender VARCHAR(10),
-    age INT,
-    category VARCHAR(35),
-    quantity INT,
-    price_per_unit FLOAT,	
-    cogs FLOAT,
-    total_sale FLOAT
-);
+	(
+		transactions_id	INT PRIMARY KEY,
+		sale_date DATE,
+		sale_time TIME,
+		customer_id	INT,
+		gender VARCHAR(15),
+		age	INT,
+		category VARCHAR(15),
+		quantity INT,
+		price_per_unit FLOAT,
+		cogs FLOAT,
+		total_sale FLOAT
+	)
 ```
 
 ### 2. Data Exploration & Cleaning
