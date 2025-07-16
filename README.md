@@ -1,14 +1,14 @@
-# Retail Sales Analysis SQL Project
+# 🛍️ Retail Sales Analysis SQL Project
 
-## Project Overview
+## 📌Project Overview
 
 **Project Title**: Retail Sales Analysis  
 **Level**: Beginner  
 **Database**: `Part1_retail_database`
 
-This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
+This project demonstrates core SQL skills commonly used by data analysts to explore, clean, and interpret retail sales data. After completing the Codecademy SQL Fundamentals course and following a structured YouTube tutorial, I applied these skills to build a retail sales database and perform insightful analysis. This project serves as an early step in developing my portfolio as I transition into data-focused roles.
 
-## Objectives
+## 🎯Objectives
 
 1. **Set up a retail sales database**: Create and populate a retail sales database with the provided sales data.
 2. **Data Cleaning**: Identify and remove any records with missing or null values.
