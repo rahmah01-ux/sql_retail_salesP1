@@ -170,18 +170,6 @@ GROUP BY category
 ```
 
 10. **Write a SQL query to create each shift and number of orders (Example Morning <12, Afternoon Between 12 & 17, Evening >17)**:
-```sql
-SELECT *,
-CASE 
-		 WHEN sale_time <= '12:00:00' THEN 'Morning'
-		 WHEN sale_time BETWEEN '12:00:00' AND '17:00:00' THEN 'Afternoon'
-		 ELSE 'Evening'
-	END AS time_of_day
-FROM retail_sales;
-```
-
--- Use EXTRACT instead return the hour only and use a CTE 'common table expressions', then we can use a GROUP BY and COUNT
-
     
 ```sql
 WITH hourly_sale
@@ -209,13 +197,19 @@ GROUP BY shift
 - **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
 - **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
 
-## Reports
+##📊Reports
 
-- **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
+- **Sales Summary**: A detailed report summarising total sales, customer demographics, and category performance.
 - **Trend Analysis**: Insights into sales trends across different months and shifts.
 - **Customer Insights**: Reports on top customers and unique customer counts per category.
 
-## Conclusion
+##✅Conclusion
 
-This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+-This beginner-friendly project offered hands-on experience in:
+-Structuring and querying a relational database
+-Applying data cleaning techniques
+-Conducting exploratory and business-focused analysis
+-Writing effective SQL using joins, aggregates, CTEs and window functions
+
+It also helped develop a solid foundation in using SQL for real-world data analysis.
 
