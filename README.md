@@ -205,10 +205,14 @@ GROUP BY shift
 
 ##✅Conclusion
 
--This beginner-friendly project offered hands-on experience in:
+This beginner-friendly project offered hands-on experience in:
+
 -Structuring and querying a relational database
+
 -Applying data cleaning techniques
+
 -Conducting exploratory and business-focused analysis
+
 -Writing effective SQL using joins, aggregates, CTEs and window functions
 
 It also helped develop a solid foundation in using SQL for real-world data analysis.
